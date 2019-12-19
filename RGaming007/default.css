@@ -1,0 +1,159 @@
+html, body{
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Pricedown";
+    background-color: rgb(252, 252, 247);
+
+}
+
+.posterImage{ /*parent has to be set to 100% in order to have responsivness that keeps aspect ratio*/
+
+    width:100%;
+    
+}
+.carImage{
+    
+    width:100%;
+    height:auto;
+    
+}
+
+.posterText{
+
+    font-family:"Merriweather" , sans-serif;
+    color: white;
+    z-index: 2;
+    margin: 0 auto;
+    position:absolute;
+    left:10%;
+    top: 15%;
+    font-size: 2vw;
+    text-shadow: 2px 2px black;
+
+}
+.profileImg{
+
+    position:relative;
+    top:-40%;
+    display:flex;
+    justify-content:center;
+    width:100%;
+    height:auto;
+
+}
+.profileTxt{
+
+    position:relative;
+    top:-30%;
+    font-family:"Pricedown";
+    display:flex;
+    justify-content:center;
+    text-shadow: 2px 2px white;
+    color: black;
+    
+}
+@media screen and (max-width:1613px){
+            
+    .profileTxt{
+    position: relative;
+    left: 5%;
+    top:10%;
+    text-align: center;
+    font-family: "SignPainter";
+    font-size: 2vw;
+    
+    }
+    .profileImg{
+
+        position: relative;
+        left:40%;
+
+
+    }
+    .posterText{
+    
+        font-family:"Merriweather" , sans-serif;
+        color: white;
+        z-index: 2;
+        margin: 0 auto;
+        position:absolute;
+        left:10%;
+        top: 15%;
+        font-size: 1vw;
+        text-shadow: 2px 2px black;
+    
+    }
+}
+
+
+.featuredTitle{
+
+    position:relative;
+    text-align:center;
+    top:0%;
+
+}
+hr{
+
+    position:relative;
+    top:-20%;
+    width:40%;
+    left:30%;
+}
+.profileReq{
+
+    
+    position:relative;
+    left:25%;
+    width:50%;
+    height:50%;
+    z-index:-3;
+
+}
+.featuredVideo{
+
+    position: relative;
+    left:25%;
+    top:100%;
+    width:50%;
+    height: 50%;
+
+}
+.carImageSlide{
+
+    display: none;
+    width:100%;
+
+}
+.btnSlideF{
+
+    position:absolute;
+    top:50%;
+    width:2%;
+    height:5%;
+
+}
+.btnSlideB{
+
+    position:absolute;
+    top:50%;
+    right:0%;
+    width:2%;
+    height:5%;
+
+}
+.check{
+
+    position:relative;
+    text-align: center;
+
+}
+.LSPDFRimg{
+
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+
+}

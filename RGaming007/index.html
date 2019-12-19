@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RGaming007 creates liveries for GTA V</title>
+    <link rel="stylesheet" href = "default.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<body> 
+    
+    <div class = "posterImage">
+        <img src = "Pictures/frontImageCar.jpg" class = "carImageSlide w3-animate-right">
+        <img src = "Pictures/frontImageCar1.jpg" class = "carImageSlide w3-animate-right">
+        <img src = "Pictures/frontImageCar2.jpg" class = "carImageSlide w3-animate-right">
+        <img src = "Pictures/frontImageCar3.jpg" class = "carImageSlide w3-animate-right">
+
+    </div>
+    <div class = "posterText"><h1>Patrol the streets of Los Santos with these Awesome liveries made by RGaming007</h1></div>
+    <div class="featuredTitle">
+        <h1>As featured on FirstThirtyMinutes</h1>
+    </div>
+    <iframe class = "featuredVideo" width="560" height="315" src="https://www.youtube.com/embed/phFtqLfLcEU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="check">
+        <h1>Check him out on LSPDFR</h1>
+    </div>
+    <a href = "https://www.lcpdfr.com/profile/400950-rgaming007/"><img src = "Pictures/LSPDFR.png" alt = "LSPDFR logo" class="LSPDFRimg"></a>
+    <script>
+            var slideIndex = 0;
+            carousel();
+
+            function carousel() {
+            var i;
+            var x = document.getElementsByClassName("carImageSlide");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) {slideIndex = 1}
+            x[slideIndex-1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+            </script>
+</body>
+</html>
